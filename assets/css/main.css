@@ -750,7 +750,8 @@ h6 {
 }
 
 .carousel-item img {
-  height: 10px; 
+  height: 300px;
+  width: 600px; 
 }
 
 .gallery .gallery-links .preview-link,
