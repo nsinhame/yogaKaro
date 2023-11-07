@@ -754,6 +754,26 @@ h6 {
   width: 600px; 
 }
 
+@media (max-width: 350px) {
+  .carousel-item img {
+    height: 50px;
+    width: 600px; 
+  }
+}
+@media (max-width: 400px) {
+  .carousel-item img {
+    height: 100px;
+    width: 600px; 
+  }
+}
+@media (max-width: 500px) {
+  .carousel-item img {
+    height: 150px;
+    width: 600px; 
+  }
+}    
+
+
 .gallery .gallery-links .preview-link,
 .gallery .gallery-links .details-link {
   font-size: 20px;
