@@ -27,6 +27,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+<!-- Add this to the head section to include Swiper -->
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
 </head>
 
@@ -81,59 +83,57 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
 
-    <!-- ======= End Page Header ======= -->
-    <div class="page-header d-flex align-items-center">
-      <div class="container position-relative">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2>Gallery Single</h2>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Page Header -->
-
-    <!-- ======= Gallery Single Section ======= -->
-    <section id="gallery-single" class="gallery-single">
-      <div class="container">
-
-        <div class="position-relative h-100">
-          <div class="slides-1 portfolio-details-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/gallery-9.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/gallery-10.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/gallery-11.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/gallery-12.jpg" alt="">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/gallery/gallery-13.jpg" alt="">
-              </div>
-
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="hero d-flex align-items-center section-bg">
+  <div class="container">
+    <div class="row justify-content-between gy-5">
+      <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#hero-carousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#hero-carousel" data-bs-slide-to="3"></li>
+            <li data-bs-target="#hero-carousel" data-bs-slide-to="4"></li>
+            <li data-bs-target="#hero-carousel" data-bs-slide-to="5"></li>
+          </ol>
+          
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/gallery/gallery-1.jpg" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="carousel-item">
+              <img src="assets/img/gallery/gallery-2.jpg" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/gallery/gallery-3.jpg" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/gallery/gallery-4.jpg" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/gallery/gallery-5.jpg" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+            </div>
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-
+          
+          <!-- Controls -->
+          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
         </div>
-
-
       </div>
-    </section><!-- End Gallery Single Section -->
-
-  </main><!-- End #main -->
+    </div>
+  </div>
+</section>
+<!-- End Hero Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
