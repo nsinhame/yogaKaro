@@ -749,6 +749,10 @@ h6 {
   z-index: 3;
 }
 
+.carousel-item img {
+  height: 10px; 
+}
+
 .gallery .gallery-links .preview-link,
 .gallery .gallery-links .details-link {
   font-size: 20px;
