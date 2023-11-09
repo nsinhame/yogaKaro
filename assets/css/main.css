@@ -58,6 +58,12 @@ h1
   font-family: 'Satisfy', cursive;
 }
 
+/* @media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+} */
+
 h2,
 h3,
 h4,
@@ -311,6 +317,16 @@ h6 {
   margin-right: 8px;
 }
 
+@media (max-width: 578px){
+.main-logo{
+  display: none;
+}
+}
+
+.header .nav-toggle {
+  position: relative;
+  float: right;
+}
 .header .logo h1 {
   font-size: 32px;
   margin: 0;
@@ -339,6 +355,11 @@ h6 {
 
 .header .header-social-links {
   padding-right: 15px;
+}
+@media (max-width: 575px){
+  .header .header-social-links {
+    padding-right: 5px;
+  }
 }
 
 .header .header-social-links a {
