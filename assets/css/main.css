@@ -1242,7 +1242,7 @@ h6 {
 .hero {
   width: 100%;
   min-height: 30vh;
-  background: #202020;
+  background: #000;
   /* originally background colour was #000 */
   background-size: cover;
   position: relative;
